@@ -8,6 +8,23 @@
     <script src="script.js"></script>
 </head>
 <body>
-    
+    <h1>Your personal library!</h1>
+    <form action="script.js" method="post">
+        <label for="title">Title:</label>
+        <input id="title" type="text" name="title">
+
+        <label for="author">Author:</label>
+        <input id="author" name="author" type="text">
+
+        <label for="pages">Pages</label>
+        <input id="pages" name="pages" type="number" value="pages">
+
+        <label for="read">Read</label>
+        <input type="radio" id="read" value="read" name="status">
+        <label for="notread">Not read</label>
+        <input type="radio" id="notread" value="Not read" name="status" checked>
+
+        <input name="submit" type="submit" value="Submit">
+    </form>
 </body>
 </html>
