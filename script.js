@@ -1,4 +1,5 @@
 const library = [];
+var bookcounter = 0;
 
 function Book(title, author, pages, status) {
     this.title = title;
@@ -7,6 +8,6 @@ function Book(title, author, pages, status) {
     this.status = status;
 }
 
-function addBooktoLibrary() {
+function addBooktoLibrary(book) {
     return;
 }
