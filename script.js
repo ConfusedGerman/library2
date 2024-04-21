@@ -35,7 +35,7 @@ function addBooktoLibrary(book) {
 }
 
 function displayBooks() {
+    const table = document.getElementById("table");
     for (book in library) {
-        
     }
 }
